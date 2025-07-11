@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fefefa;
+}
+
+.hero {
+    background-image: url('img/banner/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40rem;
+}
+
+ .bg-light {
+    background-color: #fefefa !important;
+}
+
+
+@media (max-width: 577px) {
+    .hero {
+        height: 25rem;
+        background-position: top;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 767px) {
+    body {
+        font-size: 13px;
+
+    }
+
+    h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav.bg-light {
+    background-color: #fefefa !important;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    #sobre-nosotros-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Carrito */
+
+@media (max-width: 768px) {
+    #smartcart .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+#smartcart .sc-cart-item {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+#smartcart .sc-name {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#smartcart .sc-cart-remove {
+    display: block;
+    margin-left: auto;
+    padding: 0.1rem 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#smartcart .btn {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+#smartcart .sc-cart-summary {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+/* Staff circulo*/
+.staff-img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Cards - Staff */
+.project__detail {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    transition: opacity 0.4s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.project__card:hover .project__detail {
+    opacity: 1;
+}
+
+.project {
+    perspective: 1000px;
+}
+
+.project__card {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* boton */
+.bg-warning {
+    background-color: rgb(216, 182, 12) !important;
+}
+
+.text-warning {
+    color: #ffffff !important;
+}
+
+.btn-warning {
+    background-color: rgb(216, 182, 12) !important;
+    border-color: rgb(216, 182, 12) !important;
+    color: #ffffff !important;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* testimonios */
+#coverflow {
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#coverflow .flip-items li {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+}
+
+#coverflow .flip-items li .card {
+    font-size: 16px;
+}
+
+
+.text-head-color {
+    color: rgb(0, 94, 255);
+}
+
+/* Productos */
+
+.producto-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.producto-desc {
+    font-size: 15px;
+    line-height: 1.5;
+}
