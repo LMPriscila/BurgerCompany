@@ -1,0 +1,66 @@
+
+    const productos = [
+        {
+            ID: 1,
+            Nombre: "Cheese Burger",
+            Descripcion: "Pan de papa, medallon de carne, doble queso chedar y panceta.",
+            Imagen: "cheese-burger.png",
+            Precio: 7000,
+        },
+        {
+            ID: 2,
+            Nombre: "American Burger",
+            Descripcion: "Pan de papa, medallon de carne, queso muzzarella, panceta, lechuga y tomate.",
+            Imagen: "american-burger.png",
+            Precio: 7500,
+        },
+        {
+            ID: 3,
+            Nombre: "Italian Burger",
+            Descripcion: "Pan de queso, medallon de carne, queso paresano, tomate seco, rúcula y salsa.",
+            Imagen: "italian-burger.png",
+            Precio: 8000,
+        },
+        {
+            ID: 4,
+            Nombre: "Pepiton Burger",
+            Descripcion: "Pan de queso, 2 medallones de carne, queso azul, nueces, lechuga y tomate.",
+            Imagen: "pepiton-burger.png",
+            Precio: 9000,
+        },
+        {
+            ID: 5,
+            Nombre: "Doble Cheese",
+            Descripcion: "Pan de papa, 2 medallones de carne, triple cheddar, doble bacon, tomate y salsa.",
+            Imagen: "doble-cheese.png",
+            Precio: 9000,
+        },
+        {
+            ID: 6,
+            Nombre: "Pepino Clound",
+            Descripcion: "Pan de queso, 2 medallones de carne, triple queso cheddar, pepino y cebolla. ",
+            Imagen: "pepino-clound.png",
+            Precio: 8500,
+        },
+        {
+            ID: 7,
+            Nombre: "Purple Burger",
+            Descripcion: "Pan de que con repollo blanco y colorado, lechuga y medallón de carne.",
+            Imagen: "purple-burger.png",
+            Precio: 8000,
+        },
+        {
+            ID: 8,
+            Nombre: "Chicken Burger",
+            Descripcion: "Pan con semillas, medallón de pollo, pepino, lechuga, tomate y queso cheddar.",
+            Imagen: "pollo-Burger.png",
+            Precio: 9000,
+        },
+        {
+            ID: 9,
+            Nombre: "Vegan Burger",
+            Descripcion: "Pan de integral con semillas, rúcula, cebolla colorada y pepino.",
+            Imagen: "vegan-Burger.png",
+            Precio: 8500,
+        },
+    ];
