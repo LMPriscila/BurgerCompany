@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="vendors/jquery_whatsapp/css/floating-wpp.min.css">
+  <link rel="stylesheet" href="vendors/jquery-owlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/jquery-owlCarousel/dist/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/jquery-flipster/jquery.flipster.min.css">
+
+  <title>Burger Company</title>
+</head>
+
+<body>
+
+  <!--Nav bar-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/logo/logo.png" alt="logo-marca">
+          <p class="ms-2 mb-0 d-none d-md-block">Burger Company</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Hero-->
+  <main class="hero d-flex align-items-center text-white">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 p-5">
+          <h1 class="display-4 fw-bold mb-3">Bienvenido a Burger Company</h1>
+          <p class="lead mb-4">En Burger Company nos apasiona crear las mejores hamburguesas con los ingredientes más
+            frescos y de la más alta calidad.</p>
+          <a href="productos.html" class="btn btn-warning btn-lg px-5">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!--Sobre nosotros-->
+  <section class="pb-5">
+    <div class="container">
+      <h2 class="py-4 mb-4 text-center">Sobre <span class="text-head-color">nosotros</span></h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-xl-6 mb-4 mb-xl-0">
+          <img id="sobre-nosotros-img" src="img/quienes-somos/hamburgueseria-quienes-somos.avif"
+            alt="Foto local Burger Company" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-12 col-xl-6 mb-4 mb-xl-0">
+          <p>
+            En el barrio de Barracas, Burger Company se dedica a transformar la experiencia de disfrutar una buena
+            hamburguesa. Creemos que cada una es una auténtica obra culinaria. Nuestra pasión por los sabores genuinos y
+            las combinaciones únicas nos motiva a ofrecer un menú que va desde las recetas más clásicas y equilibradas
+            hasta opciones innovadoras y sorprendentes.</p>
+          <p>
+            Cada detalle importa: seleccionamos ingredientes de la más alta calidad y nos comprometemos a brindar un
+            servicio atento y cordial. Queremos que cada visita supere tus expectativas y que siempre encuentres un
+            motivo para volver.
+          </p>
+          <p>
+            Te invitamos a descubrir nuevas formas de disfrutar una hamburguesa… siempre con el sello de calidad de
+            Burger Company.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Conocé el staff // pastilla de información-->
+  <section class="pb-5 mb-5">
+    <div class="container">
+      <h2 class="py-4 mb-4 text-center">Conocé el <span class="text-head-color">staff</span></h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-md-4 py-md-4 d-flex justify-content-center">
+          <div class="project">
+            <div class="project__card position-relative rounded overflow-hidden shadow">
+              <img src="img/staff/persona1.png" alt="Martina Solá" class="img-fluid w-100">
+              <div class="project__detail d-flex align-items-center justify-content-center">
+                <h3 class="text-white mb-0">Martina Solá</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 py-md-4  d-flex justify-content-center">
+          <div class="project">
+            <div class="project__card position-relative rounded overflow-hidden shadow">
+              <img src="img/staff/persona2.png" alt="Priscila Lera" class="img-fluid w-100">
+              <div class="project__detail d-flex align-items-center justify-content-center">
+                <h3 class="text-white mb-0">Priscila Lera</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 py-md-4 d-flex justify-content-center">
+          <div class="project">
+            <div class="project__card position-relative rounded overflow-hidden shadow">
+              <img src="img/staff/persona3.png" alt="Melina Meza" class="img-fluid w-100">
+              <div class="project__detail d-flex align-items-center justify-content-center">
+                <h3 class="text-white mb-0">Melina Meza</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Por qué elegirnos-->
+  <section class="pb-5">
+    <div class="container">
+      <h2 class="text-center py-4 mb-4">¿Por qué elegirnos?</h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-12 col-md-4 py-md-4">
+          <div class="card rounded-5 shadow-lg p-3 mb-4 bg-body-tertiary">
+            <img src="img/beneficios/combos-hamburguesas.png" alt="foto sobre nosotros" class="card-img-top rounded-3">
+            <h3 class="card-title text-center py-1 mt-3"><span class="text-head-color">Combos</span></h3>
+            <p class="card-text mx-2 pb-2">
+              En Burger Company, nos de ofrecer una variedad de combos que satisfacen todos los gustos y
+              preferencias.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 py-md-4">
+          <div class="card rounded-5 shadow-lg p-3 mb-4 bg-body-tertiary">
+            <img src="img/beneficios/take-away-2-750x500.png" alt="foto sobre combos" class="card-img-top rounded-3">
+            <h3 class="card-title text-center text-body-secondary py-1 mt-3"><span class="text-head-color">Take Away</span></h3>
+            <p class="card-text mx-2 pb-2">
+              Ofrecemos una variedad de combos para llevar que podés disfrutar en cualquier lugar, siempre frescos y
+              llenos de sabor.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 py-md-4">
+          <div class="card rounded-5 shadow-lg p-3 mb-4 bg-body-tertiary">
+            <img src="img/beneficios/delivery-food.png" alt="foto sobre entrega a domicilio"
+              class="card-img-top rounded-3">
+            <h3 class="card-title text-center py-1 mt-3"><span class="text-head-color">Entregas a domicilio</span></h3>
+            <p class="card-text mx-2 pb-2">
+              Ofrecemos un servicio de entregas a domicilio que te permite disfrutar de nuestros productos de manera
+              rápida y conveniente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Carrusel -->
+  <section class="py-5">
+    <div class="container-fluid">
+      <div class="owl-carousel">
+        <div class="item"><img src="img/carrousel/carousel-1-img.png" alt="Foto del carousel 1"></div>
+        <div class="item"><img src="img/carrousel/carousel-2-img.png" alt="Foto del carousel 2"></div>
+        <div class="item"><img src="img/carrousel/carousel-3-img.png" alt="Foto del carousel 3"></div>
+        <div class="item"><img src="img/carrousel/carousel-4-img.png" alt="Foto del carousel 4"></div>
+        <div class="item"><img src="img/carrousel/carousel-5-img.png" alt="Foto del carousel 5"></div>
+        <div class="item"><img src="img/carrousel/carousel-6-img.png" alt="Foto del carousel 6"></div>
+        <div class="item"><img src="img/carrousel/carousel-7-img.png" alt="Foto del carousel 7"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Menú de hamburguesas-->
+  <section class="pb-5">
+    <div class="container">
+      <h2 class="py-4 mb-4 text-center">Nuestro <span class="text-head-color">menú</span></h2>
+      <div class="row g-4">
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/cheese-burger.png" alt="Cheese Burger" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Cheese Burger</h3>
+              <p class="card-text">Pan de papa, medallón de carne, doble queso cheddar y panceta.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$7000</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/american-burger.png" alt="American burger" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">American Burger</h3>
+              <p class="card-text">Pan de papa, medallon de carne, queso muzzarella, panceta, lechuga y tomate.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$7500</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/italian-burger.png" alt="Italian burger" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Italian burger</h3>
+              <p class="card-text">Pan de queso, medallon de carne, queso paresano, tomate seco, rúcula y salsa.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$8000</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/pepino-clound.png" alt="Pepino clound" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Pepino Clound</h3>
+              <p class="card-text">Pan de queso, 2 medallones de carne, triple queso cheddar, pepino y cebolla.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$7500</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/pollo-burger.png" alt="Chicken burger" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Chicker burger</h3>
+              <p class="card-text">Pan con semillas, medallón de pollo, pepino, lechuga, tomate y queso cheddar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$9500</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col-12 col-md-6 col-xl-4">
+          <div class="card shadow-sm p-3 mb-3 bg-body-tertiary rounded">
+            <img src="img/productos/vegan-burger.png" alt="Vegan burger" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Vegan burger</h3>
+              <p class="card-text">Pan de integral con semillas, rúcula, cebolla colorada y pepino.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <h4><strong>$8500</strong></h4>
+                <a href="productos.html" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="text-center py-3">
+          <a href="productos.html" class="btn btn-warning px-5 mg-0 fw-bold">Ver menú</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Testimonios-->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="py-3 mb-4 text-center">Nuestros clientes</h2>
+      <div class="row g-4 align-items-center">
+        <div id="coverflow" class="col-12">
+          <ul class="flip-items">
+            <li data-flip-title="Foto de Juan Pérez">
+              <div class="card shadow-sm text-dark bg-light mb-3">
+                <div class="card-header">
+                  <img src="img/testimonios/cliente-1.png" class="card-img-top" alt="Foto de Juan Pérez">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">¡Tremenda hamburguesa!</h5>
+                  <p class="card-text">"Comida meramente riquísima, el sabor es único y
+                    de porción abundante. ¡Definitivamente volveré!"</p>
+                </div>
+              </div>
+            </li>
+            <li data-flip-title="María Gómez">
+              <div class="card shadow-sm text-dark bg-light mb-3">
+                <div class="card-header">
+                  <img src="img/testimonios/cliente-2.png" class=" card-img-top" alt="Foto de María Gómez">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">"¡Lo amé!"</h5>
+                  <p class="card-text">"Me encantó la variedad de hamburguesas y la atención es excelente."</p>
+                </div>
+              </div>
+            </li>
+            <li data-flip-title="Susana López">
+              <div class="card shadow-sm text-dark bg-light mb-3">
+                <div class="card-header">
+                  <img src="img/testimonios/cliente-3.png" class="card-img-top" alt="Foto de Susana López">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">"Recomiendo 100%"</h5>
+                  <p class="card-text">"El lugar es divino, y las hamburguesas son lo mejor que he probado. Dato no
+                    menor, ¡tienen menú vegan!"</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Formulario-->
+  <section class="py-5 bg-secondary bg-opacity-10">
+    <div class="container">
+      <h2 class="text-center py-4 mb-4">¡Hola!, acá podrás dejarnos tu mensaje</h2>
+      <div class="mx-auto bg-white p-4 p-md-5 rounded-4 shadow-sm" style="max-width: 600px;">
+        <form id="contactForm" class="needs-validation" novalidate>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Ingresa tu nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ej: Juancito" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Ingresa tu mail:</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Ej: juancito@gmail.com"
+              required />
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Número de teléfono (opcional):</label>
+            <input type="tel" id="telefono" name="telefono" class="form-control" placeholder="Ej: 1122334444" />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Dejá tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="form-control" placeholder="Escribí tu mensaje acá"
+              required></textarea>
+          </div>
+          <div class="form-check mb-3">
+            <input type="checkbox" id="terminos" name="terminos" class="form-check-input" required />
+            <label for="terminos" class="form-check-label">He leído y acepto los términos y condiciones de la
+              empresa.</label>
+          </div>
+          <button type="submit" class="btn btn-warning">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Whatsapp-->
+  <div class="floating-wpp"></div>
+
+
+  <!-- Footer-->
+  <footer class="py-4 px-3 bg-dark text-light">
+    <div class="container ">
+      <div class="row">
+        <div class="col-6 col-md-3 py-2 mb-0">
+          <div>
+            <h2 class="mb-2">Empresa</h2>
+            <ul class="list-unstyled">
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="sucursales.html">Sucursales</a></li>
+              <li>Servicios</li>
+              <li>Politica de privacidad</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 py-2 mb-0">
+          <h2 class="mb-2">Ayuda</h2>
+          <ul class="list-unstyled">
+            <li><a href="preguntas-frecuentes.html">FAQ</a></li>
+            <li>Envíos</li>
+            <li>Devoluciones</li>
+            <li>Opciones de pago</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 py-2 mb-0">
+          <h2 class="mb-2">Nosotros</h2>
+          <ul class="list-unstyled">
+            <li>Martina Solá, Desarrollo II. TG2B</li>
+            <li>Melisa Meza, Programación y Desarrollo II, TG2B</li>
+            <li> Priscila Lera, Programación y Desarrollo II, TG2B</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 py-2 mb-0">
+          <h2 class="mb-2">Seguinos</h2>
+          <a href="http://facebook.com" target="_blank"><img src="/img/redes/facebook.png" class="mx-0"
+              alt="Icono facebook"></a>
+          <a href="http://instagram.com" target="_blank"><img src="/img/redes/instagram.png" class="mx-0"
+              alt="Icono instagram"></a>
+          <a href="http://linkedin.com" target="_blank"><img src="/img/redes/linkedin.png" class="mx-0"
+              alt="Icono linkedin"></a>
+        </div>
+      </div>
+      <div class="text-center py-3">© 2024 BurgerCompany</div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery -->
+  <script src="vendors/jquery-3.7.1.min.js"></script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugins -->
+  <script src="vendors/jquery_whatsapp/js/floating-wpp.min.js"></script> <!-- WhatsApp -->
+  <script src="vendors/jquery-owlCarousel/dist/owl.carousel.min.js"></script> <!-- Carousel -->
+  <script src="vendors/jquery-hover3d/jquery.hover3d.js"></script> <!-- Plugin Hover Cards 3D -->
+  <script src="vendors/jquery_smartCart/js/jquery.smartCart.min.js"></script> <!-- Smart cart -->
+  <script src="vendors/jquery-flipster/jquery.flipster.min.js"></script> <!-- Flipster -->
+
+  <!-- Scripts -->
+  <script src="js/productos.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
