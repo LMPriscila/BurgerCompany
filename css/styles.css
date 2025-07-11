@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-    background-image: url('img/banner/banner.png');
+
     background-image: url('../img/banner/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,6 @@ body {
  .bg-light {
     background-color: #fefefa !important;
 }
-
 
 @media (max-width: 577px) {
     .hero {
