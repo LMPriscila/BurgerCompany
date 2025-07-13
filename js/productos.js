@@ -53,14 +53,14 @@
             ID: 8,
             Nombre: "Chicken Burger",
             Descripcion: "Pan con semillas, medallón de pollo, pepino, lechuga, tomate y queso cheddar.",
-            Imagen: "pollo-Burger.png",
+            Imagen: "pollo-burger.png",
             Precio: 9000,
         },
         {
             ID: 9,
             Nombre: "Vegan Burger",
             Descripcion: "Pan de integral con semillas, rúcula, cebolla colorada y pepino.",
-            Imagen: "vegan-Burger.png",
+            Imagen: "vegan-burger.png",
             Precio: 8500,
         },
     ];
