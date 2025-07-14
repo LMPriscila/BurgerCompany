@@ -9,7 +9,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
 
-   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
   <title>Preguntas frecuentes</title>
 </head>
@@ -52,77 +52,135 @@
   </header>
 
   <!--FAQ-->
-  <main>
-    <div class="container py-5 mb-0">
+  <main class="pt-3 pb-5">
+    <div class="container">
       <h1 class="text-center mb-3"><span class="text-head-color">Preguntas</span> frecuentes </h1>
-      <p class="pb-4">
+      <p class="pb-4 text-center">
         Aquí encontrarás respuestas a las preguntas más comunes que nuestros clientes suelen tener.
         Si no encuentras lo que buscas, no dudes en contactarnos por nuestros medios de contacto.
       </p>
-      <div class="row gx-4 gy-4">
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Cómo comprar?</h3>
-            <p>Selecciona tus productos y añádelos al carrito. Procede al proceso de pago seleccionando tu método y
-              confirma tu pedido. Recibirás una confirmación de pedido por correo electrónico.</p>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+              aria-expanded="true" aria-controls="collapse1">
+              ¿Cómo comprar?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Selecciona tus productos y añádelos al carrito. Procede al proceso de pago seleccionando tu método y
+              confirma tu pedido. Recibirás una confirmación de pedido por correo electrónico.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Dónde puedo enviar mi CV?</h3>
-            <p>Para formar parte de nuestro equipo, podés enviar tu currículum a bgcompany.rrhh@gmail.com.</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              ¿Dónde puedo enviar mi CV?
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Para formar parte de nuestro equipo, podés enviar tu currículum a
+              <strong>bgcompany.rrhh@gmail.com</strong>.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Qué métodos de pago aceptan?</h3>
-            <p>Aceptamos las principales tarjetas de crédito y débito, pagos en efectivo al momento de la entrega o en
-              nuestro local y opciones de pago digital, como PayPal o Mercado Pago.</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              ¿Qué métodos de pago aceptan?
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Aceptamos las principales tarjetas de crédito y débito, pagos en efectivo al momento de la entrega o en
+              nuestro local y opciones de pago digital, como PayPal o Mercado Pago.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Dónde están ubicados?</h3>
-            <p>Contamos con seis sucursales en CABA y tres en Zona Norte. Estamos convenientemente ubicados para que
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              ¿Dónde están ubicados?
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Contamos con seis sucursales en CABA y tres en Zona Norte. Estamos convenientemente ubicados para que
               puedas disfrutar de nuestras deliciosas hamburguesas y otros platos en un ambiente acogedor y accesible.
-            </p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">No llegó mi pedido</h3>
-            <p>Si no encuentras una solución rápida, no dudes en contactarnos directamente a través de nuestro número de
-              atención al cliente 011 15447931 o por correo electrónico burguercompany@gmail.com. Estamos aquí para
-              ayudarte y resolver cualquier problema lo antes posible.</p>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              No llegó mi pedido
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Si no encuentras una solución rápida, no dudes en contactarnos directamente a través de nuestro número de
+              atención al cliente <strong>011 15447931</strong> o por correo electrónico
+              <strong>burguercompany@gmail.com</strong>.
+              Estamos aquí para ayudarte y resolver cualquier problema lo antes posible.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Ofrecen opciones para eventos especiales o catering?</h3>
-            <p>Sí! En nuestra hamburguesería estamos encantados de ofrecer servicios de catering para eventos
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              ¿Ofrecen opciones para eventos especiales o catering?
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              ¡Sí! En nuestra hamburguesería estamos encantados de ofrecer servicios de catering para eventos
               especiales. Ya sea una reunión familiar, una fiesta corporativa o cualquier otro evento, podemos adaptar
-              nuestro menú para satisfacer tus necesidades.</p>
+              nuestro menú para satisfacer tus necesidades.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Cómo realizo un pedido para entrega a domicilio?</h3>
-            <p>Puedes realizar tu pedido directamente a través de nuestra página web o contactándonos por teléfono.
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              ¿Cómo realizo un pedido para entrega a domicilio?
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Puedes realizar tu pedido directamente a través de nuestra página web o contactándonos por teléfono.
               Ofrecemos servicio de entrega a domicilio en nuestra área de servicio, asegurando que tu comida llegue
-              fresca y caliente a tu puerta.</p>
+              fresca y caliente a tu puerta.
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
-          <div class="bg-light p-4 rounded-4 shadow-sm h-100">
-            <h3 class="fw-semibold mb-2">¿Tienen promociones?</h3>
-            <p>Si. Valoramos a nuestros clientes y ofrecemos diferentes programas de fidelización y promociones.
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq8">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+              ¿Tienen promociones?
+            </button>
+          </h2>
+          <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sí. Valoramos a nuestros clientes y ofrecemos diferentes programas de fidelización y promociones.
               Seguinos en nuestras redes sociales para estar al tanto de nuestras últimas ofertas y descuentos
-              exclusivos.</p>
+              exclusivos.
+            </div>
           </div>
         </div>
       </div>
     </div>
   </main>
+
 
   <!--footer-->
   <footer class="py-4 px-3 bg-dark text-light">
@@ -158,11 +216,11 @@
         </div>
         <div class="col-6 col-md-3 py-2 mb-0">
           <h3 class="mb-2">Seguinos</h3>
-          <a href="http://facebook.com" target="_blank"><img src="img/redes/facebook.png" class="mx-1"
+          <a href="http://facebook.com" target="_blank"><img src="/img/redes/facebook.png" class="mx-1"
               alt="Icono facebook"></a>
-          <a href="http://instagram.com" target="_blank"><img src="img/redes/instagram.png" class="mx-1"
+          <a href="http://instagram.com" target="_blank"><img src="/img/redes/instagram.png" class="mx-1"
               alt="Icono instagram"></a>
-          <a href="http://linkedin.com" target="_blank"><img src="img/redes/linkedin.png" class="mx-1"
+          <a href="http://linkedin.com" target="_blank"><img src="/img/redes/linkedin.png" class="mx-1"
               alt="Icono linkedin"></a>
         </div>
       </div>
