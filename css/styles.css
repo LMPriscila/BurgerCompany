@@ -24,7 +24,7 @@ body {
     background-color: #fefefa !important;
 }
 
-@media (max-width: 577px) {
+@media (max-width: 575px) {
     .hero {
         height: 25rem;
         background-position: top;
@@ -50,7 +50,8 @@ body {
     }
 }
 
-@media (min-width: 767px) {
+
+@media (min-width: 768px) {
     body {
         font-size: 13px;
 
@@ -87,7 +88,7 @@ nav.bg-light {
     background-color: #fefefa !important;
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     #sobre-nosotros-img {
         display: block;
         margin-left: auto;
