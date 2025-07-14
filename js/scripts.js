@@ -15,7 +15,7 @@ $(document).ready(function () {
 // Plugin owl Carousel
 $('.owl-carousel').owlCarousel({
   loop: true,
-  margin: 10,
+  margin: 16,
   nav: false,
   autoplay: true,
   autoplayTimeout: 1000,

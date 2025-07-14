@@ -175,6 +175,20 @@ nav.bg-light {
     transition: transform 0.3s ease;
 }
 
+/* Img carrusel */
+
+.owl-carousel .item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .owl-carousel .item img {
+    height: 300px;
+  }
+}
+
 /* boton */
 .bg-warning {
     background-color: rgb(216, 182, 12) !important;
